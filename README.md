@@ -11,6 +11,6 @@ and now once server starts running you can open the HTML page by typing localhos
 # Things to remember :
 For installing mongo type "npm install mongo"
 You should see the port number of the mongo by typing "mongo"
-To see the database type: mongo
+To see the database type: <br>mongo<br>
                           show dbs
                       

@@ -1,0 +1,304 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "HOP",
+      "description": "HOP Kids by Westside Red Ruffled Jessie Top",
+      "category": "Top",
+      "price": {
+        "value": 54,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Style Quotient",
+      "description": "Style Quotient Pink Chequered Top",
+      "category": "top",
+      "price": {
+        "value": 23,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Forever New",
+      "description": "Forever New Black Lace Top",
+      "category": "Top",
+      "price": {
+        "value": 44,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ethnicity",
+      "description": "Ethnicity Off-White Floral Print Top",
+      "category": "Top",
+      "price": {
+        "value": 40,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Label Ritu Kumar",
+      "description": "Label Ritu Kumar Yellow Floral Print Top",
+      "category": "Top",
+      "price": {
+        "value": 28,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Fusion Beats",
+      "description": "Fusion Beats Off White Printed Top",
+      "category": "Top",
+      "price": {
+        "value": 20,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Kazo",
+      "description": "Kazo Multicolor Floral Print Top",
+      "category": "Top",
+      "price": {
+        "value": 33,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Globus",
+      "description": "Globus Royal Blue Short Sleeves Top",
+      "category": "Top",
+      "price": {
+        "value": 66,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "109 F",
+      "description": "109 F Black Lace Pattern Top",
+      "category": "Top",
+      "price": {
+        "value": 19,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Forever Glam by Pantaloons",
+      "description": "Forever Glam by Pantaloons White Embellished Top",
+      "category": "Top",
+      "price": {
+        "value": 45,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/10.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "AND",
+      "description": "AND Blue Striped Top",
+      "category": "Top",
+      "price": {
+        "value": 43,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/11.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "AND",
+      "description": "AND Black & White Checks Top",
+      "category": "Top",
+      "price": {
+        "value": 22,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/12.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Honey by Pantaloons",
+      "description": "Honey by Pantaloons Navy Printed Top",
+      "category": "Top",
+      "price": {
+        "value": 39,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/13.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Akkriti by Pantaloons",
+      "description": "Akkriti by Pantaloons Mustard Printed Tunic",
+      "category": "Top",
+      "price": {
+        "value": 74,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/14.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Park Avenue",
+      "description": "Park Avenue Navy Striped Top",
+      "category": "Top",
+      "price": {
+        "value": 47,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/15.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Park Avenue",
+      "description": "Park Avenue Black & White Striped Top",
+      "category": "Top",
+      "price": {
+        "value": 35,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/16.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Park Avenue",
+      "description": "Park Avenue Striped Top",
+      "category": "Top",
+      "price": {
+        "value": 46,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/17.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Park Avenue",
+      "description": "Park Avenue Red Regular Fit Top",
+      "category": "Top",
+      "price": {
+        "value": 34,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/18.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Park Avenue",
+      "description": "Park Avenue Blue Printed Top",
+      "category": "Top",
+      "price": {
+        "value": 63,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/19.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Park Avenue",
+      "description": "Park Avenue Navy Polyester Top",
+      "category": "Top",
+      "price": {
+        "value": 93,
+        "currencyIsoCode": "$"
+      },
+      "images": [
+        {
+          "url": "images/20.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <head>
+    <title>Return Quotient</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+      .fakeimg {
+        height: 200px;
+        background: #aaa;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #f1f1f1;
+        font-family: Arial;
+      }
+
+      /* Center website */
+      .main {
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      h1 {
+        font-size: 50px;
+        word-break: break-all;
+      }
+
+      .row {
+        margin: 8px -16px;
+      }
+
+      /* Add padding BETWEEN each column */
+      .row,
+      .row>.column {
+        padding: 8px;
+      }
+
+      /* Create four equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 25%;
+      }
+
+      /* Clear floats after rows */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Content */
+      .content {
+        background-color: white;
+        padding: 10px;
+      }
+
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 900px) {
+        .column {
+          width: 50%;
+        }
+      }
+
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+
+      /*for the blur product card*/
+      .middle {
+        transition: .5s ease;
+        opacity: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    </style>
+  </head>
+</head>
+
+<body>
+  <script>
+    document.write(
+      '<script src="http://' +
+      (location.host || "localhost").split(":")[0] +
+      ':35729/livereload.js?snipver=1"></' +
+      "script>"
+    );
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  <script>
+    $.get(`/products`, function (data) {
+      console.log(data);
+      let lines = "";
+      let x = "";
+      data.forEach(pro => {
+        lines +=
+          ` <div  onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="column" style="height:380px;width:200px;padding: 9px;" >
+            <div >
+              <img
+                src=`+ pro.images[0].url + `
+                alt="Mountains"
+                style="width:100%"
+              />
+              <h3>`+ pro.name + `</h3>
+              <p>`+ pro.description + `
+              </p>
+            </div>
+           <div  style="position: relative;left: 50%;top: 50%;">
+            <div class="text">John Doe</div>
+           </div>
+          </div>`;
+        document.getElementById("grid").innerHTML = lines;
+      });
+
+      // let x = data[19].images[0].url;
+      // x = `<img src=` + x + ` alt="Italian Trulli">`;
+      // document.getElementById("fake").innerHTML = x;
+    });
+
+    $.get(`/igdg`, function (vid) {
+      let result = vid;
+      lines = `<h1> ${result} </h1>`;
+      document.getElementById("myText").innerHTML = lines;
+      loadProducts(result);
+    });
+    function loadProducts(result1) {
+      $.get(`/return/${result1}`, function (res) {
+        //console.log(res)
+        lines1 = `<h1> Back to web page data : ${res} </h1>`;
+        document.getElementById("myText1").innerHTML = lines1;
+      });
+    }
+
+    function bigImg(x) {
+      x.style.height = "380px";
+      x.style.width = "220px";
+      x.style.opacity = 0.3;
+      x.style.padding = "0px";
+    }
+
+    function normalImg(x) {
+      x.style.height = "380px";
+      x.style.width = "200px";
+      x.style.opacity = 1.0;
+      x.style.padding = "9px";
+    }
+
+
+  </script>
+
+
+
+
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Return Quotient</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+        <form class="form-inline my-lg-0" style="float:right;margin-top: 7px">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row" style="margin-left: 7%;">
+    <div class="col-sm-3">
+      <h2>About product</h2>
+      <h5>Photo of me:</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <h3>Some Links</h3>
+      <p>Lorem ipsum dolor sit ame.</p>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+      <hr class="hidden-sm hidden-md hidden-lg" />
+    </div>
+    <div class="col-sm-9">
+      <p id="grid"></p>
+    </div>
+  </div>
+
+
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <div id="copyright-container">
+      <div id="termsOfUse">
+        <a data-toggle='modal' data-target="#termsofUseModal" tabindex="-1">Terms of Use |</a>
+        <a data-toggle='modal' data-target="#browCompatibility" tabindex="-1">Browser and Display Compatibility</a>
+      </div>
+
+      <div id="copyrightMsg">Copyright &copy; 2019 Tata Consultancy Services <br>
+        Entry to this site is restricted to employees and affiliates.
+      </div>
+    </div>
+    <p id="myText"></p>
+    <p id="myText1"></p>
+  </div>
+
+
+</body>
+
+</html>

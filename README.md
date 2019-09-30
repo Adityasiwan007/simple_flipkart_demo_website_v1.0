@@ -1,5 +1,6 @@
 # simple_flipkart_demo_website
 This is totally small e-commerce website using MongoDB, NodeJS -Express, and HTML,CSS,Bootstrap.<br>
+<img src="demo/1.jpeg" width="180">            <img src="demo/2.jpeg" width="180">
 
 # For dataBase we used mongoDB and uploading the database by running "node data_loader.js"<br>
 # Then the server file will run using "npm start or node index.js"<br>

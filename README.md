@@ -14,3 +14,23 @@ You should see the port number of the mongo by typing "mongo"
 To see the database type: <br>mongo<br>
                           show dbs
                       
+# Steps:
+create a folder of any name
+Go to terminal and open the path of that folder:
+
+npm init
+
+npm install
+
+# For installing express Setup:
+
+npm install express
+
+# To Load the data on MongoDB
+
+node data_loader.js
+
+
+After that you can use this code.. and Start the server by typing: npm start or node test.js
+
+open the brower and check the local host and you can see the uploaded data on this link: localhost:3001/products
